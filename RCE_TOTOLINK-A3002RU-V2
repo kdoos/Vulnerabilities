@@ -1,7 +1,7 @@
 ================================================================================================================================================
 TOTOLINK A3002RU-V2.0.0 B20190814.1034 allows authenticated remote 
 users to modify the system's 'Run Command'. 
-Also vulnerabilities is when router uses remote management function 
+Also vulnerabilities is more dangerous when router uses remote management function 
 through the public-facing IP address on the WAN port. 
 Attackers can send prepared POST request to device during administrator 
 session is active and also got rce, because in request doesn't requires any 
