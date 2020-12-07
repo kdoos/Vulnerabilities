@@ -1,5 +1,21 @@
-=====================================================================
+=======================================================================
+TOTOLINK A3002RU-V2.0.0 B20190814.1034 allows authenticated remote 
+users to modify the system's 'Run Command'. 
+An attacker can use this functionality to execute arbitrary OS commands
+on the router. There is also possibility to get shell command on device.
 
 
 
-=====================================================================
+ Attacker must to login to administrator panel and go to 
+ Advanced Setup-> System->Run Command.
+ There is possibility to run ping and traceroute but it is possible
+ to change it and run different os command.
+ On router is busybox module so if run command
+ '/bin/busybox telnetd -l/bin/sh -p4444' 
+ will get open port 4444 which is listening for connections. 
+ So when connect to this port using netcat will get a shell with 
+ root priviledge on router.
+
+
+
+=======================================================================
