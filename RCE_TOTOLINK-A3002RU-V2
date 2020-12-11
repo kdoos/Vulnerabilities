@@ -12,7 +12,7 @@ on the router. There is also possibility to get shell command  with root privile
 
 
 
- Administrator must to login to administrator panel and go to 
+ Administrator must login to administrator panel and go to 
  Advanced Setup-> System->Run Command.
  There is possibility to run ping and traceroute but it is also possible
  to change it and run different os command.
